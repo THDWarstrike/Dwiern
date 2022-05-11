@@ -1,0 +1,24 @@
+@html.extend('layout', function(model) {
+  @html.block('content', function(model) {
+      <section class="header">
+            <nav>
+                <a href="/index"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/signup">Sign Up</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+                
+        <div class="text-box">
+            <h1>The world between Discord and Reddit...</h1>
+            <p>...Where You can either you can chat with friends <br>or post about funny, <br>insane or stupid clips.</p>
+            <a href="/" class="hero-btn">Download for Windows</a> <a href="/" class="villian-btn">Open in browser</a>
+        </div>   
+      </section>
+      <script src="javascripts/script.js"></script>
+  })
+})
