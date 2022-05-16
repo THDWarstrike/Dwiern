@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="stylesheets/style2.css">
 </head>
 <body>
+<form action ="/mainpage" method="post">
     <h1>Username</h1>
-    <input type="email" name="" id="email">
+    <input type="text" name="User" id="text">
     <h1>Password</h1>
-    <input type="password" name="" id="password">
+    <input type="password" name="Password" id="password">
     <h1>Email</h1>
-    <input type="email" name="" id="email">
-    <h4><a href="/">Sign Up</a></h4>
-    
-    
+    <input type="email" name="Email" id="email">
+    <h4><button type="submit">Sign Up</button></h4>@model.error
+</form>
+    <script src="javascripts/email.js"></script>
 </body>
 </html>

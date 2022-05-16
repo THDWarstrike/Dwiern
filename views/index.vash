@@ -19,6 +19,8 @@
             <a href="/" class="hero-btn">Download for Windows</a> <a href="/" class="villian-btn">Open in browser</a>
         </div>   
       </section>
+      <script src="https://smtpjs.com/v3/stmp.js"></script>
+      <script src="https://www.gstatix.com/firebasejs/7.17.1/firebase.js"></script>
       <script src="javascripts/script.js"></script>
   })
-})
+});

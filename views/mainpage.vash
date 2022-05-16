@@ -14,11 +14,9 @@
 
     <section class="hero">
     
-    <header class="main-header container">
+    <div>
     
-    
-
-    </header>
+    </div>
 
     </section>
 </body>
